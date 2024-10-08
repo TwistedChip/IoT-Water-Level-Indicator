@@ -11,7 +11,7 @@ long duration;
 float distance;
 
 const char* ssid = "Indihome";
-const char* password = "02081958";
+const char* password = "0208****";
 const char* URL="https://maker.ifttt.com/trigger/value_sent/with/key/f03dHfzQlSuUJcNzSBt6wQnjoNoBGUafolaHpKYd3I4";
 int value = 0; // variable to store the sensor value
 String text = "";
@@ -42,7 +42,6 @@ const char MAIN_page[] PROGMEM = R"=====(
 <script>
 
 setInterval(function() {
-  // Call a function repetatively with 2 Second interval
   getData();
 }, 2000); //2000mSeconds update rate
 
